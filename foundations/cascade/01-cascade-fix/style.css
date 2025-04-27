@@ -1,11 +1,18 @@
+/* One type selector */
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
+} 
 
+/* 2 class selectors */
 .para,
 .small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
+}
+
+/* 1 class selector */
+.para {
+  font-size: 22px;
 }
 
 .small-para {
@@ -13,15 +20,15 @@ body {
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
 
-.confirm {
+/* 1 class selector */
+.confirm.button{
   background: green;
   color: white;
   font-weight: bold;
 } 
+
+/* 1 class selector */
 
 .button {
   background-color: rgb(255, 255, 255);
@@ -29,12 +36,13 @@ body {
   font-size: 20px;
 }
 
-.child {
+/* 1 class selector */
+div.text.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
-
+/* 1 type and 1 class selectors*/
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;

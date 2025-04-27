@@ -1,0 +1,18 @@
+/* Class selector method */
+.container .text {
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+/* Type-selector method works the same way*/
+
+/* 
+div p{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+} */
